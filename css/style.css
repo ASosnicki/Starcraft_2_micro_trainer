@@ -1,0 +1,8 @@
+.command_queue_container {
+	vertical-align: bottom;
+}
+
+.scroll-content {
+	max-height: 40em;
+	overflow-y: auto;
+}
