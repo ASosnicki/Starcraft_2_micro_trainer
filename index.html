@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse navbar-static-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded=" false ">
@@ -41,10 +41,6 @@
 							<li><a href="#">vs. Protoss</a></li>
 						</ul>
 					</li>
-					<li class="active">
-						<a href="#"> <span class="sr-only">(current)</span></a>
-					</li>
-					<li><a href="#">Link</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li id="game_timer">
@@ -59,9 +55,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="panel panel-default panel-info">
+				<div class="panel panel-default panel-info current_game_objects">
 					<div class="panel-heading">Current Buildings and Units</div>
-					<div class="panel-body"></div>
+					<div class="panel-body currently-in-play"></div>
 				</div>
 			</div>
 		</div>
@@ -75,7 +71,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="panel panel-default panel-success">
+				<div class="panel panel-default panel-success active_command_container">
 					<div class="panel-heading">The Active Command Timer</div>
 					<div class="panel-body" id="command_timer">
 					</div>
@@ -87,6 +83,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/default.js"></script>
+	<script src="js/actions.js"></script>
 </body>
 
 </html>
