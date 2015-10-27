@@ -10,20 +10,31 @@ function action(name, body, button, game_object) {
 	this.button = button;
 	this.game_object = game_object;
 	this.unique_id = Date.now();
-	this.html_text = "<div class='panel panel-default'><div class='panel-heading'>" + "<kbd>" + this.button + "</kbd> - " + this.name + "</div><div class='panel-body'>" + this.action_body + "</div></div>";
-	this.unit_representation = "<img src='" + this.game_object.img_src + "' class='currently-instanced'>";
+	this.html_text = "<div class='panel panel-default' id='command_id_" + this.unique_id + "'><div class='panel-heading'>" + "<kbd>" + this.button + "</kbd> - " + this.name + "</div><div class='panel-body'>" + this.action_body + "</div></div>";
+	this.unit_representation = "<img src='" + this.game_object.img_src + "' class='currently-instanced' id='game_object_" + this.unique_id + "'>";
 	this.create = function () {
 		$(".command_queue").append(this.html_text);
 		$(".currently-in-play").append(this.unit_representation);
 
 	};
-	this.destroy = function () {
-		$(this).toggle("explode", {}, 250).remove();
+	this.destroy = function () {};
+	this.accept_keyboard_shortcut = function () {
+		$(".command_id_" + this.unique_id).toggle("explode", {}, 250).remove();
+		//		console.log(".command_id_" + this.unique_id);
 	};
+
 }
 
 function add_action_to_the_queue() {
 	action_queue.push(new action("Steve", "You must build a boat.", generate_keypress(), terran_units.marine));
 	action_queue[action_queue.length - 1].create;
 	console.log(action_queue);
+}
+
+function handle_keypress(key_code) {
+	if (key_code == current_keyboard_shortcut) {
+		console.log("You typed the right button.");
+		action_queue[0].accept_keyboard_shortcut();
+		action_queue.shift();
+	}
 }

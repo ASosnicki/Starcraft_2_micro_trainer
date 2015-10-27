@@ -20,16 +20,14 @@ var action_queue = [],
 						}, this.commands.build.time * 1000); // Convert to milliseconds
 					}
 				},
-				destroy: function () {
-
-				}
+				destroy: function () {}
 			}
 		}
 	},
-	game_running = false;
+	game_running = false,
+	current_keyboard_shortcut;
 
 $(document).ready(function () {
-
 
 
 	function pad(num, size) {
@@ -40,7 +38,8 @@ $(document).ready(function () {
 
 	$("#start").click(function () {
 		var time_started = Date.now(),
-			time_between_actions = 10000;
+			time_between_actions = 1000;
+		console.log(action_queue);
 		game_running = true;
 
 
@@ -69,5 +68,16 @@ $(document).ready(function () {
 			action_queue[action_queue.length - 1].create();
 			//		console.log(Date.now() - time_started);
 		}, time_between_actions);
+
+		window.setInterval(function () {
+			if (action_queue !== null) {
+				current_keyboard_shortcut = action_queue[0].button.charCodeAt(0);
+			}
+		});
+
 	});
+});
+
+$(document).keypress(function (e) {
+	handle_keypress(e.which);
 });
