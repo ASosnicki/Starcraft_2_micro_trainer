@@ -23,7 +23,7 @@ kbd {
 	overflow-y: auto;
 }
 
-.currently-instanced {
+.game-object {
 	background-color: #000;
 	height: 50px;
 	width: 50px;
@@ -31,4 +31,10 @@ kbd {
 
 .navbar-default {
 	border-bottom: solid 1px #3d434f;
+}
+
+#sc-logo {
+	height: 50px;
+	width: 106px;
+	margin-top: -15px;
 }

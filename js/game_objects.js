@@ -3,12 +3,13 @@
  */
 var game_objects = {
 	"Protoss": {
-		"units": {
+		"unit": {
 			"Archon": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 4,
-					"minerals": 0,
-					"gas": 0
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 12,
 				"requires": {
@@ -22,10 +23,11 @@ var game_objects = {
 				}
 			},
 			"Carrier": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 6,
-					"minerals": 350,
-					"gas": 250
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 100,
 				"requires": {
@@ -37,10 +39,11 @@ var game_objects = {
 				}
 			},
 			"Colossus": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 6,
-					"minerals": 300,
-					"gas": 200
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 75,
 				"requires": {
@@ -50,10 +53,11 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Dark Templar": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 125,
-					"gas": 125
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 55,
 				"requires": {
@@ -64,10 +68,11 @@ var game_objects = {
 				}
 			},
 			"High Templar": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 50,
-					"gas": 150
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 55,
 				"requires": {
@@ -80,9 +85,10 @@ var game_objects = {
 				}
 			},
 			"Immortal": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 4,
-					"minerals": 250,
+					"supply": 1,
+					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 55,
@@ -90,10 +96,11 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mothership": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 8,
-					"minerals": 300,
-					"gas": 300
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 100,
 				"requires": {
@@ -102,23 +109,25 @@ var game_objects = {
 				},
 				"abilities": {
 					"r": "Mass Recall",
-					"t": "Time Warp",
+					"t": "Time Warp"
 				}
 			},
 			"Observer": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
 					"supply": 1,
-					"minerals": 25,
-					"gas": 75
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 30,
 				"requires": {},
 				"abilities": {}
 			},
 			"Phoenix": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 150,
+					"supply": 1,
+					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 35,
@@ -128,10 +137,11 @@ var game_objects = {
 				}
 			},
 			"Probe": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
 					"supply": 1,
-					"minerals": 50,
-					"gas": 0
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 17,
 				"requires": {},
@@ -157,9 +167,10 @@ var game_objects = {
 				}
 			},
 			"Sentry": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 50,
+					"supply": 1,
+					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 37,
@@ -174,10 +185,11 @@ var game_objects = {
 				}
 			},
 			"Stalker": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 125,
-					"gas": 50
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 42,
 				"requires": {
@@ -189,20 +201,22 @@ var game_objects = {
 				}
 			},
 			"Void ray": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 4,
-					"minerals": 250,
-					"gas": 150
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 60,
 				"requires": {},
 				"abilities": {}
 			},
 			"Warp prism": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
-					"minerals": 200,
-					"gas": 0
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 50,
 				"requires": {},
@@ -214,10 +228,11 @@ var game_objects = {
 				}
 			},
 			"Zealot": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
+					"supply": 1,
 					"minerals": 100,
-					"gas": 0
+					"gas": 100
 				},
 				"build_time": 38,
 				"requires": {},
@@ -226,10 +241,11 @@ var game_objects = {
 				}
 			},
 			"Oracle": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 3,
-					"minerals": 150,
-					"gas": 150
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 50,
 				"requires": {},
@@ -240,10 +256,11 @@ var game_objects = {
 				}
 			},
 			"Tempest": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 4,
-					"minerals": 300,
-					"gas": 200
+					"supply": 1,
+					"minerals": 100,
+					"gas": 100
 				},
 				"build_time": 60,
 				"requires": {
@@ -253,8 +270,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mothership Core": {
+				"img_src": "images/units/Protoss/",
 				"cost": {
-					"supply": 2,
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -271,9 +289,11 @@ var game_objects = {
 				}
 			}
 		},
-		"buildings": {
+		"building": {
 			"Assimilator": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -283,7 +303,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Cybernetics core": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -293,7 +315,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Dark shrine": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -303,7 +327,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Fleet beacon": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -313,7 +339,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Forge": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -323,7 +351,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Gateway": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -333,7 +363,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nexus": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -343,7 +375,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Photon cannon": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -353,7 +387,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Pylon": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -363,7 +399,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Robotics facility": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -373,7 +411,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Robotics bay": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -383,7 +423,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Stargate": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -393,7 +435,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Templar archives": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -403,7 +447,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Twilight council": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -413,7 +459,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Warp gate": {
-				"costs": {
+				"img_src": "images/buildings/Protoss/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -425,8 +473,9 @@ var game_objects = {
 		}
 	},
 	"Terran": {
-		"units": {
+		"unit": {
 			"Banshee": {
+				"img_src": "images/units/Terran/Banshee.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -437,6 +486,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Battlecruiser": {
+				"img_src": "images/units/Terran/Battlecruiser.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -447,6 +497,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Ghost": {
+				"img_src": "images/units/Terran/Ghost.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -457,6 +508,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hellion": {
+				"img_src": "images/units/Terran/Hellion.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -467,6 +519,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Marauder": {
+				"img_src": "images/units/Terran/Marauder.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -477,6 +530,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Marine": {
+				"img_src": "images/units/Terran/Marine.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -487,6 +541,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Medivac Dropship": {
+				"img_src": "images/units/Terran/MedivacDropshop.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -497,6 +552,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mule": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -507,6 +563,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Raven": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -517,6 +574,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Reaper": {
+				"img_src": "images/units/Terran/Reaper.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -526,7 +584,8 @@ var game_objects = {
 				"requires": {},
 				"abilities": {}
 			},
-			"Scv": {
+			"SCV": {
+				"img_src": "images/units/Terran/SCV.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -537,6 +596,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Siege Tank, Crucio": {
+				"img_src": "images/units/Terran/SiegeTank.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -547,6 +607,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Thor": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -557,6 +618,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Viking": {
+				"img_src": "images/units/Terran/VikingAssault.jpg",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -567,6 +629,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Auto-Turret": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -577,6 +640,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Point Defense Drone": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -587,6 +651,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hellbat": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -597,6 +662,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Widow Mine": {
+				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -607,692 +673,217 @@ var game_objects = {
 				"abilities": {}
 			}
 		},
-		"buildings": {
+		"building": {
 			"Armory": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Barracks": {
-				"costs": {
+				"img_src": "images/buildings/Terran/Barracks.jpg",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Bunker": {
-				"costs": {
+				"img_src": "images/buildings/Terran/Bunker.jpg",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Command Center": {
-				"costs": {
+				"img_src": "images/buildings/Terran/CommandCenter.jpg",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Orbital Command": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Planetary Fortress": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Engineering Bay": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Factory": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Fusion Core": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Ghost Academy": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Missile Turret": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Refinery": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Sensor Tower": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Starport": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Supply Depot": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Reactor": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Tech Lab": {
-				"costs": {
+				"img_src": "images/buildings/Terran/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			}
 		}
 	},
 	"Zerg": {
-		"units": {
+		"unit": {
 			"Corruptor": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1303,6 +894,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Brood Lord": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1313,6 +905,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Drone": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1323,6 +916,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hydralisk": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1333,6 +927,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Infestor": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1343,6 +938,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Larva": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1353,6 +949,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mutalisk": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1363,6 +960,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Overlord": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1373,6 +971,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Overseer": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1383,6 +982,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Queen": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1393,6 +993,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Roach": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1403,6 +1004,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Ultralisk": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1413,6 +1015,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Zergling": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1423,6 +1026,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Baneling": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1433,6 +1037,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Broodling": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1443,6 +1048,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Changeling": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1453,6 +1059,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Infested Terran": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1463,6 +1070,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Swarm Host": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1473,6 +1081,7 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Viper": {
+				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -1483,289 +1092,95 @@ var game_objects = {
 				"abilities": {}
 			}
 		},
-		"buildings": {
+		"building": {
 			"Baneling Nest": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Creep Tumor": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Evolution Chamber": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Extractor": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Hatchery": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Lair": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Hive": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
 				"build_time": 100,
-				"requires": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"abilities": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				},
-				"upgrades": {
-					"cost": {
-						"supply": 1,
-						"minerals": 100,
-						"gas": 100
-					},
-					"build_time": 100,
-					"requires": {},
-					"upgrades": [],
-					"abilities": {}
-				}
+				"requires": {},
+				"abilities": {},
+				"upgrades": {}
 			},
 			"Hydralisk Den": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1775,7 +1190,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Infestation Pit": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1785,7 +1202,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nydus Network": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1795,7 +1214,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nydus Worm": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1805,7 +1226,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Roach Warren": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1815,7 +1238,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spawning Pool": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1825,7 +1250,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spine Crawler": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1835,7 +1262,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spire": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1845,7 +1274,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Greater Spire": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1855,7 +1286,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spore Crawler": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
@@ -1865,7 +1298,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Ultralisk Cavern": {
-				"costs": {
+				"img_src": "images/buildings/Zerg/",
+				"cost": {
+					"supply": 1,
 					"minerals": 100,
 					"gas": 100
 				},
