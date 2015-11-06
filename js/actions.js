@@ -1,11 +1,17 @@
-// A crap function for generating random keyboard shortcuts to enter for development purposes.
+/**
+ * A crap function for generating random keyboard shortcuts to enter for development purposes.
+ * @returns {String} a random character for testing keyboard input.
+ */
 function generate_keypress() {
 	var potential_keypresses = ["1", "2", "3", "4", "5", "q", "w", "e", "r", "t", "a", "s", "d", "f", "g", "z", "x", "c", "v", "b"];
 	return potential_keypresses[Math.floor(Math.random() * potential_keypresses.length)];
 }
 
 
-// Actions to be executed
+/**
+ * User Action Object Definition
+ * @param {Object} game_object the game object that will be represented by the action
+ */
 function action(name, body, button, game_object) {
 	// This whole section will need to change to pull from the game_object.
 	this.name = name;
@@ -29,7 +35,10 @@ function action(name, body, button, game_object) {
 }
 
 
-// Active Commands
+/**
+ * Definition for active commands (actions that have been run, that have moved into the command queue, and that are waiting on their timers).
+ * @param {Object} game_object the game object that will be represented by the active command.
+ */
 function active_command(game_object) {
 	this.name = game_object.name;
 	this.body = game_object.body;
@@ -51,7 +60,10 @@ function active_command(game_object) {
 }
 
 
-// Active Game Objects
+/**
+ * Definition for game objects (buildings and units) that are currently instantiated.
+ * @param {Object} game_object [[Description]]
+ */
 function active_game_object(game_object) {
 	this.name = game_object.name;
 	this.unique_id = "game_object_" + Date.now();
@@ -62,6 +74,12 @@ function active_game_object(game_object) {
 }
 
 
+/**
+ * A function to add actions to the action queue (the queue that prompts users for input)
+ * 
+ * This needs to be substantially reworked so that it actually draws from the action queue rather than hard coded values (what it currently has).
+ * 
+ */
 function add_action_to_the_queue() {
 	action_queue.push(new action("Steve", "You must build a boat.", generate_keypress(), terran_units.Marine));
 	action_queue[action_queue.length - 1].create;
@@ -69,10 +87,23 @@ function add_action_to_the_queue() {
 }
 
 
+/**
+ * A function to handle keypresses.
+ * @param {string} key_code is the value of the user's keypress. This is translated into a numeric keyboard event.
+ */
 function handle_keypress(key_code) {
 	if (key_code == current_keyboard_shortcut) {
 		console.log("You typed the right button.");
 		action_queue[0].accept_keyboard_shortcut();
 		action_queue.shift();
 	}
+}
+
+
+/**
+ * A function to handle selecting game objects.
+ * @param {[[Type]]} game_objects [[Description]]
+ */
+function select_game_objects(game_objects) {
+
 }

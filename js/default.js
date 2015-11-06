@@ -11,6 +11,7 @@ var faction = "Terran",
 	action_queue = [],
 	active_command_queue = [],
 	current_game_objects = [],
+	selected_game_objects = [],
 	groups = {},
 	locations = {},
 	terran_units = {
