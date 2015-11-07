@@ -1,7 +1,4 @@
-/**
- * Created by chris on 10/11/15.
- */
-
+// Overall Variable Declarations
 var faction = "Terran",
 	initial_units = {},
 	initial_resources = {
@@ -40,16 +37,27 @@ var faction = "Terran",
 	},
 	current_keyboard_shortcut;
 
+
+
 $(document).ready(function () {
 
 	// A function to pad numbers with leading zeros (used in the timer)
+	/**
+	 * A function to add padded 0's to numbers (eg 05 vs 5)
+	 * @param   {Integer} num  the input number (eg 5)
+	 * @param   {Integer} size the number of 0's to pad
+	 * @returns {String} the final padded number (eg 05)
+	 */
 	function pad(num, size) {
 		var s = num + "";
 		while (s.length < size) s = "0" + s;
 		return s;
 	}
 
-	// A function that controls the running of the trainer.
+	/**
+	 * Start running the trainer
+	 * @param {Function} "#start").click(function ( this function runs when you click the object with an ID of "start".
+	 */
 	$("#start").click(function () {
 		var time_started = Date.now(),
 			time_between_actions = 1000;

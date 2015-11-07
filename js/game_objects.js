@@ -1,11 +1,10 @@
-/**
- * Created by chris on 10/11/15.
- */
 var game_objects = {
 	"Protoss": {
 		"unit": {
 			"Archon": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -23,7 +22,9 @@ var game_objects = {
 				}
 			},
 			"Carrier": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -39,7 +40,9 @@ var game_objects = {
 				}
 			},
 			"Colossus": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -53,7 +56,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Dark Templar": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -68,7 +73,9 @@ var game_objects = {
 				}
 			},
 			"High Templar": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -85,7 +92,9 @@ var game_objects = {
 				}
 			},
 			"Immortal": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -96,7 +105,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mothership": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -113,7 +124,9 @@ var game_objects = {
 				}
 			},
 			"Observer": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -124,7 +137,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Phoenix": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -137,7 +152,9 @@ var game_objects = {
 				}
 			},
 			"Probe": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -167,7 +184,9 @@ var game_objects = {
 				}
 			},
 			"Sentry": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -185,7 +204,9 @@ var game_objects = {
 				}
 			},
 			"Stalker": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -201,7 +222,9 @@ var game_objects = {
 				}
 			},
 			"Void ray": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -212,7 +235,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Warp prism": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -228,7 +253,9 @@ var game_objects = {
 				}
 			},
 			"Zealot": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -241,7 +268,9 @@ var game_objects = {
 				}
 			},
 			"Oracle": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -256,7 +285,9 @@ var game_objects = {
 				}
 			},
 			"Tempest": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -270,7 +301,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mothership Core": {
-				"img_src": "images/units/Protoss/",
+				"name": "",
+				"description": "",
+				"size": "",
 				"cost": {
 					"supply": 1,
 					"minerals": 100,
@@ -291,6 +324,9 @@ var game_objects = {
 		},
 		"building": {
 			"Assimilator": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -303,6 +339,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Cybernetics core": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -315,6 +354,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Dark shrine": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -327,6 +369,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Fleet beacon": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -339,6 +384,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Forge": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -351,6 +399,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Gateway": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -363,6 +414,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nexus": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -375,6 +429,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Photon cannon": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -387,6 +444,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Pylon": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -399,6 +459,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Robotics facility": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -411,6 +474,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Robotics bay": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -423,6 +489,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Stargate": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -435,6 +504,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Templar archives": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -447,6 +519,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Twilight council": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -459,6 +534,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Warp gate": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Protoss/",
 				"cost": {
 					"supply": 1,
@@ -475,6 +553,9 @@ var game_objects = {
 	"Terran": {
 		"unit": {
 			"Banshee": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Banshee.jpg",
 				"cost": {
 					"supply": 1,
@@ -486,6 +567,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Battlecruiser": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Battlecruiser.jpg",
 				"cost": {
 					"supply": 1,
@@ -497,6 +581,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Ghost": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Ghost.jpg",
 				"cost": {
 					"supply": 1,
@@ -508,6 +595,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hellion": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Hellion.jpg",
 				"cost": {
 					"supply": 1,
@@ -519,6 +609,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Marauder": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Marauder.jpg",
 				"cost": {
 					"supply": 1,
@@ -530,6 +623,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Marine": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Marine.jpg",
 				"cost": {
 					"supply": 1,
@@ -541,6 +637,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Medivac Dropship": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/MedivacDropshop.jpg",
 				"cost": {
 					"supply": 1,
@@ -552,6 +651,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mule": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -563,6 +665,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Raven": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -574,6 +679,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Reaper": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/Reaper.jpg",
 				"cost": {
 					"supply": 1,
@@ -585,6 +693,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"SCV": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/SCV.jpg",
 				"cost": {
 					"supply": 1,
@@ -596,6 +707,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Siege Tank, Crucio": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/SiegeTank.jpg",
 				"cost": {
 					"supply": 1,
@@ -607,6 +721,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Thor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -618,6 +735,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Viking": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/VikingAssault.jpg",
 				"cost": {
 					"supply": 1,
@@ -629,6 +749,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Auto-Turret": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -640,6 +763,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Point Defense Drone": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -651,6 +777,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hellbat": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -662,6 +791,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Widow Mine": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Terran/",
 				"cost": {
 					"supply": 1,
@@ -675,6 +807,9 @@ var game_objects = {
 		},
 		"building": {
 			"Armory": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -687,6 +822,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Barracks": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/Barracks.jpg",
 				"cost": {
 					"supply": 1,
@@ -699,6 +837,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Bunker": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/Bunker.jpg",
 				"cost": {
 					"supply": 1,
@@ -711,6 +852,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Command Center": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/CommandCenter.jpg",
 				"cost": {
 					"supply": 1,
@@ -723,6 +867,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Orbital Command": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -735,6 +882,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Planetary Fortress": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -747,6 +897,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Engineering Bay": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -759,6 +912,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Factory": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -771,6 +927,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Fusion Core": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -783,6 +942,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Ghost Academy": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -795,6 +957,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Missile Turret": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -807,6 +972,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Refinery": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -819,6 +987,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Sensor Tower": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -831,6 +1002,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Starport": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -843,6 +1017,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Supply Depot": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -855,6 +1032,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Reactor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -867,6 +1047,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Tech Lab": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Terran/",
 				"cost": {
 					"supply": 1,
@@ -883,6 +1066,9 @@ var game_objects = {
 	"Zerg": {
 		"unit": {
 			"Corruptor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -894,6 +1080,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Brood Lord": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -905,6 +1094,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Drone": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -916,6 +1108,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Hydralisk": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -927,6 +1122,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Infestor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -938,6 +1136,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Larva": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -949,6 +1150,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Mutalisk": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -960,6 +1164,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Overlord": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -971,6 +1178,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Overseer": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -982,6 +1192,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Queen": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -993,6 +1206,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Roach": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1004,6 +1220,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Ultralisk": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1015,6 +1234,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Zergling": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1026,6 +1248,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Baneling": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1037,6 +1262,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Broodling": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1048,6 +1276,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Changeling": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1059,6 +1290,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Infested Terran": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1070,6 +1304,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Swarm Host": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1081,6 +1318,9 @@ var game_objects = {
 				"abilities": {}
 			},
 			"Viper": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/units/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1094,6 +1334,9 @@ var game_objects = {
 		},
 		"building": {
 			"Baneling Nest": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1106,6 +1349,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Creep Tumor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1118,6 +1364,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Evolution Chamber": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1130,6 +1379,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Extractor": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1142,6 +1394,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Hatchery": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1154,6 +1409,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Lair": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1166,6 +1424,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Hive": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1178,6 +1439,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Hydralisk Den": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1190,6 +1454,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Infestation Pit": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1202,6 +1469,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nydus Network": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1214,6 +1484,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Nydus Worm": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1226,6 +1499,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Roach Warren": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1238,6 +1514,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spawning Pool": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1250,6 +1529,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spine Crawler": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1262,6 +1544,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spire": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1274,6 +1559,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Greater Spire": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1286,6 +1574,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Spore Crawler": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,
@@ -1298,6 +1589,9 @@ var game_objects = {
 				"upgrades": {}
 			},
 			"Ultralisk Cavern": {
+				"name": "",
+				"description": "",
+				"size": "",
 				"img_src": "images/buildings/Zerg/",
 				"cost": {
 					"supply": 1,

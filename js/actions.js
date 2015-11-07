@@ -33,7 +33,7 @@ function action(name, body, button, game_object) {
 		//		console.log(".command_id_" + this.unique_id);
 	};
 }
-
+afsosnicki@ gmail.com
 
 /**
  * Definition for active commands (actions that have been run, that have moved into the command queue, and that are waiting on their timers).
@@ -70,7 +70,15 @@ function active_game_object(game_object) {
 	this.img_src = game_object.img_src;
 	this.lifespan = game_object.lifespan;
 	this.html_text = "<img src='" + this.img_src + "' class='game-object' id='" + this.unique_id + "'>";
+
+	// Instantiate the game object.
 	$(".current_game_objects").append(this.html_text);
+
+	// What happens when you click on the object.
+	$("#" + this.unique_id).click(function () {
+		console.log(this);
+		//		action_helpers.add_to_selected_game_objects();
+	});
 }
 
 
@@ -83,7 +91,7 @@ function active_game_object(game_object) {
 function add_action_to_the_queue() {
 	action_queue.push(new action("Steve", "You must build a boat.", generate_keypress(), terran_units.Marine));
 	action_queue[action_queue.length - 1].create;
-	console.log(action_queue);
+	//	console.log(action_queue);
 }
 
 

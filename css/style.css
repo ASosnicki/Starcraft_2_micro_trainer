@@ -29,6 +29,10 @@ kbd {
 	width: 50px;
 }
 
+.selected-game-object {
+	outline: 1px solid #ff0000;
+}
+
 .navbar-default {
 	border-bottom: solid 1px #3d434f;
 }

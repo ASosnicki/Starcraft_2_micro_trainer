@@ -1,3 +1,4 @@
+// Variable declarations
 var starting_game_objects = {
 		"Protoss": [
 			{
