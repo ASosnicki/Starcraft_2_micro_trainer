@@ -88,7 +88,7 @@ var starting_game_objects = {
 	builds = [
 		// The first item in the array is the meta data required to run the build.
 		{
-			build_name: "Fast marine Pubh Bronze - Gold (TvX)",
+			build_name: "Fast marine Push Bronze - Gold (TvX)",
 			faction: "Terran",
 			sequence: [
 
