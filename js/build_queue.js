@@ -22,7 +22,7 @@ var starting_game_objects = {
 			}, {
 				"type": "unit",
 				"name": "Probe"
-		}
+			}
 		],
 		"Terran": [
 			{
@@ -46,8 +46,8 @@ var starting_game_objects = {
 			}, {
 				"type": "unit",
 				"name": "SCV"
-		}
-	],
+			}
+		],
 		"Zerg": [
 			{
 				"type": "building",
@@ -82,6 +82,10 @@ var starting_game_objects = {
 			}, {
 				"type": "unit",
 				"name": "Larva"
-			}]
+			}
+		]
 	},
-	build_queue = [];
+	build_queue = [
+		// The build queue is simply references to game objects with a timing requirement.
+		{}
+	];

@@ -1,44 +1,21 @@
 body {
-	background: url(../images/bg-repeat.jpg) center top;
-	background-repeat: repeat-y;
-	background-size: auto;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
-kbd {
-	font-size: 24pt;
+main {
+	flex: 1 0 auto;
 }
 
-.command_queue_container {
-	vertical-align: bottom;
+footer.page-footer {
+	margin-top: 0px;
 }
 
-.command_queue_container,
-.active_command_container,
-.current_game_objects {
-	background: #000;
-}
-
-.scroll-content {
-	max-height: 30em;
-	overflow-y: auto;
-}
-
-.game-object {
+#current-game-objects {
 	background-color: #000;
-	height: 50px;
-	width: 50px;
 }
 
-.selected-game-object {
-	outline: 1px solid #ff0000;
-}
-
-.navbar-default {
-	border-bottom: solid 1px #3d434f;
-}
-
-#sc-logo {
-	height: 50px;
-	width: 106px;
-	margin-top: -15px;
+#active-commands {
+	text-align: right;
 }
