@@ -7,6 +7,14 @@ $(document).ready(function () {
 
 	// Initialize modals
 	$(".modal-trigger").leanModal();
+	$("#select-faction").html(function () {
+		var available_factions = helpers.list_available_factions(builds),
+			output_html = "";
+		for (var i = 0; i < available_factions.length; i++) {
+			output_html += "<a class='waves-effect btn' id='" + available_factions[i] + "'>" + available_factions[i] + "</a>";
+		}
+		return output_html;
+	});
 
 	// Start game
 	$("#start-game").click(function () {

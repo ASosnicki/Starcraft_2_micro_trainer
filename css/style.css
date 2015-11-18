@@ -19,3 +19,14 @@ footer.page-footer {
 #active-commands {
 	text-align: right;
 }
+
+#select-faction,
+#select-build {
+	margin-top: 2em;
+}
+
+#select-faction a,
+#select-build a {
+	display: block;
+	margin-top: 1em;
+}

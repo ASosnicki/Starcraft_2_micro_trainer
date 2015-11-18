@@ -85,7 +85,167 @@ var starting_game_objects = {
 			}
 		]
 	},
-	build_queue = [
-		// The build queue is simply references to game objects with a timing requirement.
-		{}
+	builds = [
+		// The first item in the array is the meta data required to run the build.
+		{
+			build_name: "Fast marine Pubh Bronze - Gold (TvX)",
+			faction: "Terran",
+			sequence: [
+
+			// The build queue is simply references to game objects with a timing requirement.
+				{
+					type: "building",
+					name: "Supply Depot",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 10
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Barracks",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 12
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Refinery",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 12
+				}
+			]
+			},
+				{
+					type: "unit",
+					name: "Marine",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 15
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Supply Depot",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 15
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Orbital Comand",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 15
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Barracks",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 16
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Barracks",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Reactor",
+					quantity: 3,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+				}
+			]
+			},
+				{
+					type: "unit",
+					name: "Marine",
+					quantity: 15,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+		}
+			]
+			},
+				{
+					type: "building",
+					name: "barracks",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+				}
+			]
+			},
+				{
+					type: "building",
+					name: "Tech Lab",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+				}
+			]
+			},
+				{
+					type: "upgrade",
+					name: "Stim",
+					quantity: 1,
+					timing_requirements: [
+						{
+							requirement: "worker count",
+							quantity: 17
+						}
+					]
+				}
+			]
+		},
+		{
+			build_name: "",
+			faction: "Protoss",
+			sequence: []
+		},
+		{
+			build_name: "",
+			faction: "Zerg",
+			sequence: []
+		}
 	];
