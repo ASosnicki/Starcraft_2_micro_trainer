@@ -33,7 +33,7 @@ function action(name, body, button, game_object) {
 		//		console.log(".command_id_" + this.unique_id);
 	};
 }
-afsosnicki@ gmail.com
+
 
 /**
  * Definition for active commands (actions that have been run, that have moved into the command queue, and that are waiting on their timers).
