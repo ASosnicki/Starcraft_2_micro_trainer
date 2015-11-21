@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Builds</title>
-</head>
-<body>
+@extends('app')
+
+@section('title')
+Build List
+@end
+
+@section('content')
 	<h1>Available builds</h1>
-</body>
-</html>
+@stop

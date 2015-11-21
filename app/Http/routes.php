@@ -1,4 +1,10 @@
 <?php
 
 Route::get('/', 'PagesController@index');
-Route::get('about', 'PagesController@about');
+
+Route::resource('build', 'BuildController');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);

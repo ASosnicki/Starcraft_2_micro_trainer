@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Player Stats</title>
-</head>
-<body>
+@extends('app')
+
+@section('title')
+Player Stats
+@end
+
+@section('content')
 	<h1>Your improvement over time.</h1>
-</body>
-</html>
+@end

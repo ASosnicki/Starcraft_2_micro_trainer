@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Edit a Build</title>
-</head>
-<body>
+@extends('app')
+
+@section('title')
+Edit a Build
+@end
+
+@section('content')
 	<h1>Edit a build</h1>
-</body>
-</html>
+@stop

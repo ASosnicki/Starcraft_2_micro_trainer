@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Practice</title>
-</head>
-<body>
+@extends('app')
+
+@section('title')
+Practice
+@end
+
+@section('content')
 	<h1>The actual game practice part of the application.</h1>
-</body>
-</html>
+@end
