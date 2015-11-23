@@ -2,9 +2,13 @@
 
 @section('title')
 Create a Build
-@end
-
+@stop
 
 @section('content')
-	<h1>Create a new build</h1>
+<div class="row">
+	<div class="col">
+		{!! Form::open() !!}
+		{!! Form::close() !!}
+	</div>
+</div>
 @stop
