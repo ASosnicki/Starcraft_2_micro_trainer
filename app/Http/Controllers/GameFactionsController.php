@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class BuildItemController extends Controller
+class GameFactionsController extends Controller
 {
     //
 }
