@@ -101,9 +101,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 10
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Barracks",
@@ -112,9 +112,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 12
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Refinery",
@@ -123,9 +123,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 12
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "unit",
 					name: "Marine",
@@ -134,9 +134,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 15
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Supply Depot",
@@ -145,9 +145,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 15
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Orbital Comand",
@@ -156,9 +156,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 15
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Barracks",
@@ -167,9 +167,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 16
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Barracks",
@@ -178,9 +178,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 17
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Reactor",
@@ -189,9 +189,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 17
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "unit",
 					name: "Marine",
@@ -200,9 +200,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 17
-		}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "barracks",
@@ -211,9 +211,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 17
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "building",
 					name: "Tech Lab",
@@ -222,9 +222,9 @@ var starting_game_objects = {
 						{
 							requirement: "worker count",
 							quantity: 17
-				}
-			]
-			},
+						}
+					]
+				},
 				{
 					type: "upgrade",
 					name: "Stim",
@@ -236,16 +236,16 @@ var starting_game_objects = {
 						}
 					]
 				}
-			]
-		},
-		{
-			build_name: "",
-			faction: "Protoss",
-			sequence: []
-		},
-		{
-			build_name: "",
-			faction: "Zerg",
-			sequence: []
+			},
+			{
+				build_name: "",
+				faction: "Protoss",
+				sequence: []
+			},
+			{
+				build_name: "",
+				faction: "Zerg",
+				sequence: []
+			}
 		}
 	];
